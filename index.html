@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="sl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+      Frizerski salon Simona | Striženje, barvanje, stajling in manikura
+    </title>
+
+    <meta
+      name="description"
+      content="Frizerski salon Simona nudi sodobno striženje, barvanje, stajling in manikuro v prijetnem in elegantnem ambientu v Podčetrtku."
+    />
+    <meta name="author" content="Frizerski salon Simona" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#050505" />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Frizerski salon Simona | Striženje, barvanje, stajling in manikura"
+    />
+    <meta
+      property="og:description"
+      content="Sodobna nega las in nohtov z dotikom razkošja. Odkrijte storitve frizerskega salona Simona."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="sl_SI" />
+    <meta property="og:image" content="obrazky/hero-simona.webp" />
+
+    <!-- Favicon placeholder -->
+    <link rel="icon" type="image/png" href="obrazky/favicon.png" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header-inner">
+        <a href="#home" class="logo">
+          <div class="logo-circle">FS</div>
+
+          <div class="logo-text">
+            <span>FRIZERSKI SALON</span>
+            <strong>SIMONA</strong>
+          </div>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Odpri meni"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav" aria-label="Glavna navigacija">
+          <a href="#home">DOMOV</a>
+          <a href="#services">STORITVE</a>
+          <a href="#about">O NAS</a>
+          <a href="#gallery">GALERIJA</a>
+          <a href="#pricing">CENIK</a>
+          <a href="#contact">KONTAKT</a>
+        </nav>
+
+        <a href="#contact" class="btn btn-primary header-cta">
+          <span>NAROČITE SE</span>
+        </a>
+      </div>
+
+      <div class="mobile-menu" id="mobile-menu">
+        <nav class="mobile-nav" aria-label="Mobilna navigacija">
+          <a href="#home">DOMOV</a>
+          <a href="#services">STORITVE</a>
+          <a href="#about">O NAS</a>
+          <a href="#gallery">GALERIJA</a>
+          <a href="#pricing">CENIK</a>
+          <a href="#contact">KONTAKT</a>
+          <a href="#contact" class="btn btn-primary mobile-menu-btn">
+            <span>NAROČITE SE</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <p class="kicker">FRIZERSKI SALON SIMONA</p>
+
+            <h1>
+              Lepota, ki jo
+              <span>občutite.</span>
+            </h1>
+
+            <p class="desc">
+              Sodobna nega las in nohtov z dotikom razkošja. Za ženske, ki
+              cenijo kakovost, stil in prijeten ambient.
+            </p>
+
+            <div class="buttons">
+              <a href="#contact" class="btn btn-primary">
+                <span>NAROČITE SE</span>
+              </a>
+              <a href="#services" class="btn outline">OGLED STORITEV</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrap" aria-hidden="true">
+          <img src="obrazky/hero-simona.webp" alt="" class="hero-image" />
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="container">
+          <div class="services-heading">
+            <p class="section-kicker">STORITVE</p>
+            <h2>Popolna nega za vas</h2>
+            <div class="section-line"></div>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 157 135" aria-hidden="true">
+                  <path
+                    d="M19.5 33.0081C28.6866 33.0081 36 40.2445 36 49.0081C36 57.7717 28.6866 65.0081 19.5 65.0081C10.3134 65.0081 3 57.7717 3 49.0081C3 40.2445 10.3134 33.0081 19.5 33.0081Z"
+                  />
+                  <path
+                    d="M35.3752 95.4487C42.3431 88.0421 53.0579 87.4926 59.3016 93.3666C65.5453 99.2405 65.6502 109.969 58.6823 117.375C51.7143 124.782 40.9996 125.332 34.7558 119.458C28.5121 113.584 28.4072 102.855 35.3752 95.4487Z"
+                  />
+                  <path
+                    d="M38.5 51.5081H74M55.5 88.5081L71 65.0081C72.1667 60.3414 77.7 48.4081 90.5 38.0081C106.5 25.0081 133 2.5081 135.5 3.0081C137.5 3.4081 105.667 34.8414 89.5 50.5081C80 59.5081 61.1 78.3081 61.5 81.5081M90.5 50.5081C101.333 48.5081 129.4 42.1081 155 32.5081"
+                  />
+                </svg>
+              </div>
+              <h3>STRIŽENJE</h3>
+              <p>Ženski, moški in otroški stil.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 199 178" aria-hidden="true">
+                  <path
+                    d="M118.074 21.4678L138.574 1.9678L143.824 5.9678V9.4678M143.824 9.4678L126.574 26.4678M143.824 9.4678L148.824 10.4678L151.097 14.4678M151.097 14.4678L132.574 32.9678M151.097 14.4678L155.574 16.4678L157.704 19.9678L158.074 20.4678M139.574 39.4678L158.074 20.4678M158.074 20.4678L163.074 22.9678L166.074 27.9678L147.074 47.9678M1.07434 176.468C7.40767 169.968 25.8743 156.268 49.0743 153.468C78.0743 149.968 111.854 161.509 120.574 161.968C130.074 162.468 149.074 168.968 181.074 136.968M64.0743 144.968C65.9077 141.634 77.2743 134.768 108.074 133.968C146.574 132.968 139.074 143.968 162.074 139.468C180.474 135.868 192.741 121.968 196.574 115.468M79.0743 133.968C85.5743 128.468 103.274 117.068 122.074 115.468C140.874 113.868 163.241 114.468 172.074 114.968C179.074 115.468 187.574 111.368 197.574 98.9678M110.574 26.4678C105.074 28.4678 94.3743 38.2678 95.5743 61.4678C95.741 62.6345 95.6743 65.3678 94.0743 66.9678C92.4743 68.5678 52.741 111.634 33.0743 132.968C32.241 135.301 33.5743 137.468 37.0743 136.968C42.7439 136.158 85.5743 96.3011 106.574 77.4678C112.574 77.4678 126.974 76.1678 128.574 74.9678C135.074 72.4678 141.574 66.9678 144.574 57.9678L110.574 26.4678Z"
+                  />
+                </svg>
+              </div>
+              <h3>BARVANJE &amp; PRAMENI</h3>
+              <p>Balayage, air touch, klasično barvanje.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 142 189" aria-hidden="true">
+                  <path
+                    d="M3.9788 128.747C-1.18787 113.58 -1.7212 76.9466 37.4788 51.7466C76.6788 26.5466 70.9974 29.7466 77.4788 25.2466C83.9602 20.7466 88.5788 14.6466 90.9788 0.246597M29.4788 168.247C21.9788 155.247 13.5788 122.847 39.9788 97.2466C72.9788 65.2466 81.9602 61.7466 96.4788 49.7466C110.997 37.7466 108.479 33.2466 113.479 10.2466M60.4788 187.747C53.8121 175.747 45.7788 146.547 66.9788 125.747C93.4788 99.7466 117.479 80.7466 127.979 58.7466C138.479 36.7466 138.979 26.7466 139.979 16.2466M102.979 131.247C105.479 133.247 116.879 140.847 126.479 131.247C136.079 121.647 125.979 105.247 130.479 102.247C134.979 99.2466 137.979 97.2466 137.979 97.2466"
+                  />
+                </svg>
+              </div>
+              <h3>STAJLING</h3>
+              <p>Fen frizure, kodri, posebne priložnosti.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-icon">
+                <svg viewBox="0 0 95 195" aria-hidden="true">
+                  <path
+                    d="M12.7635 191.442C4.26347 174.275 -7.63653 134.542 12.7635 112.942C38.2635 85.9421 29.603 84.9973 33.103 85.4973M18.2635 133.442C20.5968 127.609 27.5635 114.842 36.7635 110.442M38.2635 110.442L32.9996 84.9973C25.1662 81.164 8.06348 73.9421 7.26348 73.9421C6.26348 73.9421 4.76349 67.9421 14.2635 68.4421C23.7635 68.9421 36.4996 69.9973 41.4996 75.4973C46.4996 80.9973 52.9467 89.0526 59.4996 103.997C53.9996 91.164 43.8635 68.4421 42.2635 68.4421C40.2635 68.4421 4.98481 50.6197 7.26348 45.4421C8.99957 41.4973 19.5615 44.5709 20.9996 44.9973C22.4996 45.4421 33.8612 47.569 45.7635 51.8741M74.7635 98.9973C71.2635 87.4973 63.5635 65.1421 60.7635 59.9421C59.4261 57.4583 53.1242 54.5365 45.7635 51.8741M45.7635 51.8741C32.7635 45.0634 7.36351 30.6421 9.76349 27.4421C12.7635 23.4421 19.7635 24.9421 25.7635 27.4421C31.7635 29.9421 62.2635 39.4421 67.2635 48.9421C72.2635 58.4421 77.4996 65.4973 84.9996 94.4973M52.9996 38.3676C47.0984 33.8549 38.5391 22.8379 35.2635 13.6849M47.7635 193.942C43.2635 179.442 38.2635 175.942 63.7635 141.942C89.2635 107.942 92.2635 106.942 93.2635 88.4421C94.0635 73.6421 81.2635 50.2754 74.7635 40.4421C66.1536 29.3722 59.2457 21.265 53.7635 15.4082M35.2635 13.6849C33.8209 9.65395 33.5513 5.61106 35.2635 1.9421C36.3022 0.441672 41.4173 2.21825 53.7635 15.4082M35.2635 13.6849C40.4302 17.0814 51.3635 22.1811 53.7635 15.4082"
+                  />
+                </svg>
+              </div>
+              <h3>MANIKURA</h3>
+              <p>Gel, oblikovanje, nega nohtov.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about-card">
+            <div class="about-media">
+              <img
+                src="obrazky/before-after.webp"
+                alt="Primerjava pred in potem po barvanju in oblikovanju pričeske"
+                class="about-photo"
+              />
+            </div>
+
+            <div class="about-content">
+              <p class="about-kicker">O NAS</p>
+
+              <h2 class="about-title">
+                Tradicija &amp; sodobnost
+                <span>v enem salonu</span>
+              </h2>
+
+              <p class="about-text">
+                Dobrodošli v našem frizerskem salonu, kjer se tradicija in
+                sodobnost prepletata v popolni harmoniji. Naša ekipa, ki jo
+                sestavljata mama in hčerka, je predana temu, da vsaka stranka
+                doživi edinstveno in prijetno izkušnjo. Mama s svojimi bogatimi
+                izkušnjami poskrbi za brezhibne frizerske storitve, hčerka pa
+                poleg frizerstva ponuja tudi profesionalno manikuro, ki bo vašim
+                nohtom dodala prefinjen videz. Skupaj ustvarjata toplo in domače
+                vzdušje, v katerem se boste počutili sproščeno in cenjeno.
+              </p>
+
+              <ul class="about-list">
+                <li>Osebni pristop</li>
+                <li>Kakovostni izdelki</li>
+                <li>Prijetno in sproščujoče okolje</li>
+              </ul>
+
+              <div class="about-signature">
+                <span>Simona</span>
+                <small>ustanoviteljica frizerskega salona</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+          <div class="gallery-heading">
+            <p class="section-kicker">GALERIJA</p>
+            <h2>Ustvarjamo lepoto</h2>
+            <div class="section-line"></div>
+          </div>
+
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img
+                src="obrazky/gallery2.webp"
+                alt="Frizura z dolgimi kodri in poudarjenimi prameni"
+              />
+            </div>
+
+            <div class="gallery-item">
+              <img
+                src="obrazky/gallery2.webp"
+                alt="Frizura z dolgimi kodri in poudarjenimi prameni"
+              />
+            </div>
+
+            <div class="gallery-item">
+              <img
+                src="obrazky/gallery2.webp"
+                alt="Frizura z dolgimi kodri in poudarjenimi prameni"
+              />
+            </div>
+
+            <div class="gallery-item">
+              <img
+                src="obrazky/gallery2.webp"
+                alt="Frizura z dolgimi kodri in poudarjenimi prameni"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing" id="pricing">
+        <div class="container">
+          <div class="pricing-heading">
+            <p class="section-kicker">CENIK</p>
+            <h2>Naš cenik</h2>
+            <div class="section-line"></div>
+            <p class="pricing-intro">
+              Privoščite si le najboljše in zasijte z našimi storitvami.
+            </p>
+          </div>
+
+          <div class="pricing-card">
+            <div class="pricing-group">
+              <h3>Frizerske storitve</h3>
+
+              <ul class="pricing-list">
+                <li><span>Striženje (Ž/M)</span><span>25 € / 15 €</span></li>
+                <li><span>Barvanje las</span><span>od 45 €</span></li>
+                <li><span>Balayage / prameni</span><span>od 70 €</span></li>
+                <li><span>Oblikovanje pričeske</span><span>od 30 €</span></li>
+                <li><span>Keratinsko ravnanje</span><span>od 90 €</span></li>
+                <li><span>Podaljševanje las</span><span>od 100 €</span></li>
+                <li><span>Specialna nega las</span><span>od 40 €</span></li>
+              </ul>
+            </div>
+
+            <div class="pricing-group">
+              <h3>Manikura &amp; nohti</h3>
+
+              <ul class="pricing-list">
+                <li><span>Manikura</span><span>od 30 €</span></li>
+                <li><span>Gel nohti</span><span>od 35 €</span></li>
+                <li><span>Oblikovanje nohtov</span><span>od 25 €</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-heading">
+            <p class="section-kicker">KONTAKT</p>
+            <h2>Kontaktirajte nas</h2>
+            <div class="section-line"></div>
+            <p class="contact-intro">
+              Rezervirajte svoj termin ali nas obiščite v našem salonu. Veselimo
+              se srečanja z vami!
+            </p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-info">
+              <div class="contact-info-box">
+                <div class="contact-item">
+                  <h3>Telefon</h3>
+                  <a href="tel:+38641472363">+386 41 472 363</a>
+                </div>
+
+                <div class="contact-item">
+                  <h3>E-pošta</h3>
+                  <a href="mailto:info@frizerskisalonsimona.si"
+                    >info@frizerskisalonsimona.si</a
+                  >
+                </div>
+
+                <div class="contact-item">
+                  <h3>Naslov</h3>
+                  <p>
+                    Imeno 67,<br />
+                    3254 Podčetrtek,<br />
+                    Slovenija
+                  </p>
+                </div>
+
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Imeno+67,+3254+Podčetrtek,+Slovenija"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary contact-btn"
+                >
+                  <span>ODPRI NAVIGACIJO</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-map-wrap">
+              <div
+                class="map-consent"
+                id="map-consent"
+                data-map-src="https://www.google.com/maps?q=Imeno+67,+3254+Podčetrtek,+Slovenija&z=15&output=embed"
+              >
+                <div class="map-consent-inner">
+                  <p class="map-consent-kicker">ZASEBNOST</p>
+                  <h3>Za ogled zemljevida je potrebno soglasje</h3>
+                  <p class="map-consent-text">
+                    Zemljevid Google Maps se naloži šele po vaši potrditvi. S
+                    tem lahko Google prejme tehnične podatke, kot je vaš naslov
+                    IP, in uporabi svoje tehnologije v skladu z lastnimi pravili
+                    zasebnosti.
+                  </p>
+
+                  <div class="map-consent-actions">
+                    <button type="button" class="btn btn-primary" id="accept-map">
+                      <span>POVOLI ZEMLJEVID</span>
+                    </button>
+
+                    <a
+                      href="https://www.google.com/maps/search/?api=1&query=Imeno+67,+3254+Podčetrtek,+Slovenija"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn outline"
+                    >
+                      ODPRI V GOOGLE MAPS
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <span>© 2026 Frizerski salon Simona</span>
+        </div>
+
+        <div class="footer-center">
+          <a href="privacy.html">Zasebnost</a>
+        </div>
+
+        <div class="footer-right">
+          <span>
+            Izdelava spletne strani:
+            <a
+              href="https://nikadevstudio.si"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Nika Dev Studio
+            </a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
